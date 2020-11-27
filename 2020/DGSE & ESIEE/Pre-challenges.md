@@ -4,7 +4,7 @@
 
 
 
-![Google logo](https://www.google.fr/images/srpr/logo11w.png "google logo")
+![Google logo](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/challenge_home.PNG "google logo")
 
 
 ## Description de la compétition
