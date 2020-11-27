@@ -12,5 +12,4 @@ Lien du challenge: www.challengecybersec.fr
 
 ---
 
-*** Code Markdown ***
-*********************
+
