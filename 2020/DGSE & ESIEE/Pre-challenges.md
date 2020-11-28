@@ -32,7 +32,7 @@ Dans ce code source, une chose m'a sauté aux yeux. Il s'agit du commentaire à 
 
 **NB**: A noter que j'ai également suivi tous les liens dans le code source pour m'assurer ne pas passer à côté d'autres indices! En le faisant, j'ai téléchargé les deux images présentes sur la page courante pour les analysées plus tard.
 
-Lien dans le code source
+__Lien dans le code source__
 + /static/bootstrap/css/bootstrap.min.css
 + /static/css/style.css
 + /static/img/dgse.png
@@ -40,7 +40,7 @@ Lien dans le code source
 + /static/js/particles.min.js
 + /static/js/app.js
 
-= Images téléchargées =
+__Images téléchargées__
 + dgse.png
 + esiee.png
 
