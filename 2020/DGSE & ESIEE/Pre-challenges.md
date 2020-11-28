@@ -44,10 +44,12 @@ Les deux dernières correspondent aux images disponibles ici:
 + https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/dgse.png
 + https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/esiee.png
 
-:information_source: : La seule chose exploitable dans le code source était bien le commentaire que j'ai suivi en complétant mon URL comme ceci `https://challengecybersec.fr/static/message-secret.html`.  On tombe alors sur ce long texte incompréhensible.
+:information_source: : La seule chose exploitable dans le code source était bien le commentaire que j'ai suivi en complétant mon URL comme ceci `https://challengecybersec.fr/static/message-secret.html`.  Je suis tombé alors sur ce long texte incompréhensible.  
+
+
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.PNG " ")  
 
-Ce message a l'air de commuiquer une information secrète **/static/message-secret.html**
+Ce message de chemin **/static/message-secret.html** a l'air de commuiquer une information secrète. 
 Rappelons-nous de la phrase: > **Ouvrez bien les yeux, vous avez jusqu'au 11/11/2020 23:59:59**. 
 
 
