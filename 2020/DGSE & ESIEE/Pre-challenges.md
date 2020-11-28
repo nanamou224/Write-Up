@@ -41,11 +41,11 @@ __Lien dans le code source__
 + /static/img/dgse.png
 + /static/img/esiee.png
 
-Les deux dernières correspondent aux images disponibles ici:  
+Les deux derniers correspondent aux images disponibles ici:  
 + https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/dgse.png
 + https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/esiee.png
 
-:information_source: : La seule chose exploitable dans le code source était bien le commentaire que j'ai suivi en complétant mon URL comme ceci `https://challengecybersec.fr/static/message-secret.html`.  Je suis tombé alors sur ce long texte incompréhensible.  
+:information_source: : La seule chose exploitable dans le code source était bien le commentaire que j'ai suivi en complétant mon URL comme ceci `https://challengecybersec.fr/static/message-secret.html`.  Je suis tombé alors sur un long texte incompréhensible. En sélectionnant tout le texte (CTRL+A), on découvre:   
 
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.PNG " ")  
@@ -55,18 +55,20 @@ Les deux dernières correspondent aux images disponibles ici:
 **Remarque 3**: Certains caractères sont en gras et ce sont: `/`, `j`, `o`, `h`, `a`
 Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rien d'intéressant ne s'y trouvait.  
 
+
+
 #### Déchiffrement du code de Cesar
-##### *Etape 1*: trouver le décalage (la clef de déchiffrement)  
-Méthode 1: analyse à la mano  
+##### Etape 1: trouver le décalage (la clef de déchiffrement)  
+**Méthode 1: analyse à la mano**  
 Supposant que le texte soit en français,   
 
-Méthode 2: analyse automatisée (brute force)  
+**Méthode 2: analyse automatisée (brute force)**  
 
 copier une phrase du texte pour trouver le décalage du chiffrement de cesar utilisé
 https://www.dcode.fr/caesar-cipher
 => décalage=7
 
-##### *Etape 2*: déchiffrer
+##### Etape 2: déchiffrer
 
 
 > Décoder le message chiffré par Cesar de clef 7
