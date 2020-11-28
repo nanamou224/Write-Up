@@ -17,6 +17,7 @@ Lien du challenge: www.challengecybersec.fr
 
 ---
 ### Débuts des hostilités 
+## Objectif: retrouver les challenges de la compétitions  
 En me rendant sur le lien du challenge (www.challengecybersec.fr), recupéré sur le site de la DGSE, je suis tombé sur la jolie page web suivante.   
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture1.PNG " ")                        
@@ -30,7 +31,7 @@ Je ne sais pas pour vous, mais face à une page web, je suis toujours tenté d'a
 
 Dans ce code source, une chose m'a sauté aux yeux. Il s'agit du commentaire à la ligne 10 qui indique une nouvelle page web `/static/message-secret.html`.
 
-**NB**: A noter que j'ai également suivi tous les liens dans le code source pour m'assurer ne pas passer à côté d'autres indices! En le faisant, j'ai téléchargé les deux images présentes sur la page courante pour les analysées plus tard.
+**Note**: A noter que j'ai également suivi tous les liens dans le code source pour m'assurer ne pas passer à côté d'autres indices! En le faisant, j'ai téléchargé les deux images présentes sur la page courante pour les analysées plus tard.
 
 __Lien dans le code source__
 + /static/bootstrap/css/bootstrap.min.css
@@ -49,8 +50,51 @@ Les deux dernières correspondent aux images disponibles ici:
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.PNG " ")  
 
-Ce message de chemin **/static/message-secret.html** a l'air de commuiquer une information secrète. 
-Rappelons-nous de la phrase: > **Ouvrez bien les yeux, vous avez jusqu'au 11/11/2020 23:59:59**. 
+**Remarque 1**: Ce message a l'air de commuiquer une information secrète (tout comme le nom du chemin d'ailleurs: **/static/message-secret.html**).   
+**Remarque 2**: Dans le corner gauche, on aperçoit le titre de la page **Cesar**. Cela nous donne l'idée sur la marche à suivre: **chiffrement par décalage**.    
+**Remarque 3**: Certains caractères sont en gras et ce sont: `/`, `j`, `o`, `h`, `a`
+
+Comme toujours, j'ai *checké* le code source de la page avant de continuer.  
+
+**Déchiffrement du code de Cesar**
+*Etape 1*: trouver le décalage (la clef de déchiffrement)
+Méthode 1: analyse à la mano
+Supposant que le texte soit en français, 
+
+Méthode 2: analyse automatisée (brute force)
+
+copier une phrase du texte pour trouver le décalage du chiffrement de cesar utilisé
+https://www.dcode.fr/caesar-cipher
+=> décalage=7
+
+*Etape 2*: déchiffrer
+
+
+> Décoder le message chiffré par Cesar de clef 7
+1E: copier une phrase du texte pour trouver le décalage du chiffrement de cesar utilisé
+https://www.dcode.fr/caesar-cipher
+=> décalage=7
+
+2E: pour une question de formatage, utiliser le site pour décoder
+https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us
+M3: Utiliser le message laissé/décodé
+> Sélectionner tout le texte: CTRL+A
+on remarque des caractères entre | |, on parie que ces lettres en caractère hors ASCII peuvent aider plus tard
+> Copier dans l'ordre chacun de ces mots et les décoder
+https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us
+
+Cypher text		Plain text
+---------------------------------------------------
+23[/]01/1924	       23[/]01/1924
+s'vj[j]bwhapvu	       l'oc[c]upation
+Tvyip[o]hu		       Morbi[h]an
+T[h]syhbe		       M[a]lraux
+klcplu[a]		       devien[t]  
+
+NB: j'ai colorié et mis entre parenthèses les lettres qui nous intéressent
+/chat
+> Se rendre donc dans le repertoire caché: /chat
+https://www.challengecybersec.fr/chat
 
 
 
