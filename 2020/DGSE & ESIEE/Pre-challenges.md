@@ -38,7 +38,9 @@ __Lien dans le code source__
 + /static/img/dgse.png
 + /static/img/esiee.png
 + /static/js/particles.min.js
-+ /static/js/app.js
++ /static/js/app.js  
+
+
 
 __Images téléchargées__
 + dgse.png
