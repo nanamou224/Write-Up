@@ -45,14 +45,14 @@ Les deux derniers correspondent aux images disponibles ici:
 + https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/dgse.png
 + https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/esiee.png
 
-:information_source: : La seule chose exploitable dans le code source était bien le commentaire que j'ai suivi en complétant mon URL (encadré rectangulaire en rouge). Je suis alors tombé sur un long texte incompréhensible. En sélectionnant tout le texte (CTRL+A), on découvre:   
+:information_source: : La seule chose exploitable dans le code source était bien le commentaire que j'ai suivi en complétant mon URL (*encadré rouge*). Je suis alors tombé sur un long texte incompréhensible. En sélectionnant tout le texte (CTRL+A), on découvre:   
 
 
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.PNG " ")  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.png " ")  
 
 **Remarque 1**: Ce message a l'air de commuiquer une information secrète (tout comme son chemin d'ailleurs!: **/static/message-secret.html**).   
-**Remarque 2**: Dans le corner gauche (encdré rectangulaire en jaune), on aperçoit le titre de la page **Cesar**; nous avons donc affaire à un **chiffrement par décalage**.    
-**Remarque 3**: Certains caractères sont en gras et, déliités par des barres verticales si sélectionnés (encadrés circulaires en rouge). Ce sont: `/`, `j`, `o`, `h`, `a`
+**Remarque 2**: Dans le corner gauche (*encdré jaune*), on aperçoit le titre de la page **Cesar**; nous avons donc affaire à un **chiffrement par décalage**.    
+**Remarque 3**: Certains caractères sont en gras et, déliités par des barres verticales si sélectionnés (*encadrés noires*). Ce sont: `/`, `j`, `o`, `h`, `a`
 Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rien d'intéressant ne s'y trouvait.  
 
 
