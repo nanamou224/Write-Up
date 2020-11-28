@@ -26,7 +26,7 @@ Etant donné que c'est un CTF-like, il faut être attentif aux moindres détails
 > **Ouvrez bien les yeux, vous avez jusqu'au 11/11/2020 23:59:59**.  
 
 Je ne sais pas pour vous, mais face à une page web, je suis toujours tenté d'aller voir, toute de suite, le code source de la page web avec CTRL+U.
-![capture2](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture2.PNG " ")  
+![capture2](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture2.png " ")  
 
 Dans ce code source, une chose m'a sauté aux yeux. Il s'agit du commentaire à la ligne 10 qui indique une nouvelle page web `/static/message-secret.html`.
 
@@ -35,17 +35,16 @@ Dans ce code source, une chose m'a sauté aux yeux. Il s'agit du commentaire à 
 __Lien dans le code source__
 + /static/bootstrap/css/bootstrap.min.css
 + /static/css/style.css
-+ /static/img/dgse.png
-+ /static/img/esiee.png
 + /static/js/particles.min.js
 + /static/js/app.js  
++ /static/img/dgse.png
++ /static/img/esiee.png
 
-__Images téléchargées__
+Les deux dernières correspondent aux images disponibles ici:  
 + https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/dgse.png
 + https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/esiee.png
 
-
-La seule chose exploitable dans le code source était bien le commentaire que j'ai suivi en complétant mon URL comme ceci `https://challengecybersec.fr/static/message-secret.html`.  On tombe alors sur ce long texte incompréhensible.
+:information_source: : La seule chose exploitable dans le code source était bien le commentaire que j'ai suivi en complétant mon URL comme ceci `https://challengecybersec.fr/static/message-secret.html`.  On tombe alors sur ce long texte incompréhensible.
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.PNG " ")  
 
 Ce message a l'air de commuiquer une information secrète **/static/message-secret.html**
