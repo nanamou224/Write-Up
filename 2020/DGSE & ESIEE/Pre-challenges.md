@@ -77,12 +77,12 @@ outil en ligne https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJ
 
 
 **Etape 2: déchiffrer le code**  
-Maintenant que nous connaissons la clef de déchiffrement, il suffit de réutiliser l'une des méthodes précédentes sur le texte en entier pour avoir le message en clair. Comme je suis gentille :blush:, je vous donne une autre méthode en ligne de commande (utile en offline).
+Maintenant que nous connaissons la clef de déchiffrement, il suffit de réutiliser l'une des méthodes précédentes sur le texte en entier pour avoir le message en clair. Comme je suis gentil :blush:, je vous donne une autre méthode en ligne de commande (utile en offline).
 
 Texte déchiffré en entier:
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture6.png "capture6.png")   
 
-En concordance avec mes **Remarque {1,2,2}**, j'ai copié-collé les mots dans cet ordre en mettant les lettres concernées entre guillemets.
+En concordance avec mes **Remarque {1,2,2}**, j'ai copié-collé les mots dans cet ordre en mettant les lettres concernées entre guillemets.  
 Lien trouvé après rassemblessement des pièces du puzzle `chat`:  
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture6.png "capture7.png") 
 
