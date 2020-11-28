@@ -17,7 +17,7 @@ Lien du challenge: www.challengecybersec.fr
 
 ---
 ### Débuts des hostilités 
-## Objectif: retrouver les challenges de la compétitions  
+#### Objectif: retrouver les challenges de la compétitions  
 En me rendant sur le lien du challenge (www.challengecybersec.fr), recupéré sur le site de la DGSE, je suis tombé sur la jolie page web suivante.   
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture1.PNG " ")                        
@@ -55,8 +55,8 @@ Les deux dernières correspondent aux images disponibles ici:
 **Remarque 3**: Certains caractères sont en gras et ce sont: `/`, `j`, `o`, `h`, `a`
 Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rien d'intéressant ne s'y trouvait.  
 
-**Déchiffrement du code de Cesar**
-*Etape 1*: trouver le décalage (la clef de déchiffrement)  
+#### Déchiffrement du code de Cesar
+##### *Etape 1*: trouver le décalage (la clef de déchiffrement)  
 Méthode 1: analyse à la mano  
 Supposant que le texte soit en français,   
 
@@ -66,7 +66,7 @@ copier une phrase du texte pour trouver le décalage du chiffrement de cesar uti
 https://www.dcode.fr/caesar-cipher
 => décalage=7
 
-*Etape 2*: déchiffrer
+##### *Etape 2*: déchiffrer
 
 
 > Décoder le message chiffré par Cesar de clef 7
