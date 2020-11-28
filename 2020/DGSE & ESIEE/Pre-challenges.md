@@ -15,6 +15,7 @@ Lien du challenge: www.challengecybersec.fr
 [DGSE](https://www.defense.gouv.fr/dgse): Direction Générale de la Sécurité Extérieure  
 [ESIEE](https://www.esiee.fr/): École Supérieure d'Ingénieurs en Électrotechnique et Électronique
 
+---  
 ---
 ### Débuts des hostilités 
 #### Objectif: retrouver les challenges de la compétitions  
@@ -60,17 +61,17 @@ Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rie
 
 
 ## 2. Déchiffrement du code de Cesar  
-##### Etape 1: trouver le décalage (la clef de déchiffrement)  
-**Méthode 1: analyse à la mano**  
+**Etape 1: trouver le décalage (la clef de déchiffrement)**    
+##### Méthode 1: analyse à la mano  
 Supposant que le texte soit en français,   
 
-**Méthode 2: analyse automatisée (brute force)**  
+##### Méthode 2: analyse automatisée (brute force)  
 
 copier une phrase du texte pour trouver le décalage du chiffrement de cesar utilisé
 https://www.dcode.fr/caesar-cipher
 => décalage=7
 
-##### Etape 2: déchiffrer
+**Etape 2: déchiffrer**  
 
 
 > Décoder le message chiffré par Cesar de clef 7
