@@ -58,6 +58,7 @@ Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rie
 
 
 #### Déchiffrement du code de Cesar
+--
 ##### Etape 1: trouver le décalage (la clef de déchiffrement)  
 **Méthode 1: analyse à la mano**  
 Supposant que le texte soit en français,   
