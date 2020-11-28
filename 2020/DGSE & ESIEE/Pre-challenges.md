@@ -61,10 +61,10 @@ Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rie
 
 ## 2. Déchiffrement du code de Cesar  
 **Etape 1: trouver le décalage (la clef de déchiffrement)**    
-##### Méthode 1: analyse à la mano  
+***Méthode 1***: analyse à la mano    
 Supposant que le texte soit en français,   
 
-##### Méthode 2: analyse automatisée (brute force)  
+***Méthode 2***: analyse automatisée (brute force)  
 
 copier une phrase du texte pour trouver le décalage du chiffrement de cesar utilisé
 https://www.dcode.fr/caesar-cipher
