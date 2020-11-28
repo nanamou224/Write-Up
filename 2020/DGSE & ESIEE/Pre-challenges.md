@@ -21,7 +21,6 @@ En me rendant sur le lien du challenge (www.challengecybersec.fr), recupéré su
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture1.PNG " ")                        
 
-
-   
+                              
 Etant donné que c'est un CTF-like, il faut être attentif aux moindres détails. C'est d'ailleurs ce qu'on nous rappelle en cette phrase 
 > **Ouvrez bien les yeux, vous avez jusqu'au 11/11/2020 23:59:59**
