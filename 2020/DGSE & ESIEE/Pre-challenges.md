@@ -50,11 +50,10 @@ Les deux dernières correspondent aux images disponibles ici:
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.PNG " ")  
 
-**Remarque 1**: Ce message a l'air de commuiquer une information secrète (tout comme le nom du chemin d'ailleurs: **/static/message-secret.html**).   
-**Remarque 2**: Dans le corner gauche, on aperçoit le titre de la page **Cesar**. Cela nous donne l'idée sur la marche à suivre: **chiffrement par décalage**.    
+**Remarque 1**: Ce message a l'air de commuiquer une information secrète (tout comme son chemin d'ailleurs: **/static/message-secret.html**).   
+**Remarque 2**: Dans le corner gauche, on aperçoit le titre de la page **Cesar**; il a donc affaire ç un **chiffrement par décalage**.    
 **Remarque 3**: Certains caractères sont en gras et ce sont: `/`, `j`, `o`, `h`, `a`
-
-Comme toujours, j'ai *checké* le code source de la page avant de continuer.  
+Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rien d'intéressant ne s'y trouvait.  
 
 **Déchiffrement du code de Cesar**
 *Etape 1*: trouver le décalage (la clef de déchiffrement)
