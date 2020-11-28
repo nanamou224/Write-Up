@@ -91,7 +91,8 @@ J'ai donc obtenu le repertoire caché `/chat`.
 
 Elle consiste à utiliser la techniques d'énumération web **fuzzing directory** sur le dictionnaire **/usr/share/wordlists/dirb/small.txt** avec soit **dirb**, **dirbuster**, **gobuster**, ...  
 
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture8.png "capture8.png")   
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture8.png "capture8.png")  
+
 
 
 
