@@ -48,7 +48,7 @@ Les deux derniers correspondent aux images disponibles ici:
 :information_source: : La seule chose exploitable dans le code source était bien le commentaire que j'ai suivi en complétant mon URL comme ceci `https://challengecybersec.fr/static/message-secret.html`.  Je suis tombé alors sur un long texte incompréhensible. En sélectionnant tout le texte (CTRL+A), on découvre:   
 
 
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.PNG " ")  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.png " ")  
 
 **Remarque 1**: Ce message a l'air de commuiquer une information secrète (tout comme son chemin d'ailleurs: **/static/message-secret.html**).   
 **Remarque 2**: Dans le corner gauche, on aperçoit le titre de la page **Cesar**; il a donc affaire ç un **chiffrement par décalage**.    
