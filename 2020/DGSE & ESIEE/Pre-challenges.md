@@ -62,15 +62,20 @@ Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rie
 ## 2. Déchiffrement du code de Cesar  
 **Etape 1: trouver le décalage (la clef de déchiffrement)**    
 ***Méthode 1***: analyse à la mano    
-Supposant que le texte soit en français,   
+Les lettres du texte sont typiquement celles utilisées en français et en anglais. De plus, on remarque un mot formé d'une seule lettre (encadré vert): la langue utilisée est probablement du français où: h --(correspondance)--> a. **La clef de déchiffrement est donc 7**.
 
 ***Méthode 2***: analyse automatisée (brute force)  
+L'autre méthode consiste à copier un court passage (une phrase, par exemple) et le dechiffrer avec un outil en ligne comme https://www.dcode.fr/caesar-cipher ou https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us.   
 
-copier une phrase du texte pour trouver le décalage du chiffrement de cesar utilisé
-https://www.dcode.fr/caesar-cipher
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture4.png " outil en ligne https://www.dcode.fr/caesar-cipher")  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture5.png " outil en ligne https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us") 
+
+
+
+
 => décalage=7
 
-**Etape 2: déchiffrer**  
+**Etape 2: déchiffrer le code**  
 
 
 > Décoder le message chiffré par Cesar de clef 7
