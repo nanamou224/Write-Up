@@ -1,4 +1,4 @@
-# **Brigitte Friang by DGSE & ESIEE**
+# **Brigitte Friang, DGSE & ESIEE**
 
 ![Google logo](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/challenge_home.PNG "google logo")
 
