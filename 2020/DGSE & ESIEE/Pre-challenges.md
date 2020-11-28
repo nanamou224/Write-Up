@@ -40,12 +40,9 @@ __Lien dans le code source__
 + /static/js/particles.min.js
 + /static/js/app.js  
 
-
-
 __Images téléchargées__
-+ dgse.png
-+ esiee.png
-
++ https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/dgse.png
++ https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/esiee.png
 
 
 
