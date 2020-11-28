@@ -1,9 +1,9 @@
-# Brigitte Friang
+# **Brigitte Friang by DGSE & ESIEE**
 
 ![Google logo](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/challenge_home.PNG "google logo")
 
 
-## Description de la compétition
+### Description de la compétition
 Du samedi 24 octobre au mercredi 11 novembre 2020, la **DGSE** et l'**ESIEE Paris** organisaient le challenge de cybersécurité intitulée **Brigitte Friang** qui consistait à incarner l’**agent 42** afin de déjouer une attaque menaçant les ressortissants et les intérêts français suite à une révolte dans un pays fictif.  
 
 Ce CTF était composé en trois phases. Une première phase de **pré-challenge** qui consistait à trouver les challenges de la compétition, donc pas bonifiée ( :mask: ). Après avoir perdu bon nombre des participants à cette phase, venait ensuite la deuxième phase qui était le vrai **challenge**. Enfin, les mieux classés sont attendus pour une dernière phase **post-challenge** à la DGSE.  
