@@ -33,7 +33,7 @@ Je ne sais pas pour vous, mais face à une page web, je suis toujours tenté d'a
 
 Dans ce code source, une chose m'a sauté aux yeux. Il s'agit du commentaire à la ligne 10 qui indique une nouvelle page web `/static/message-secret.html`.
 
-**Note**: A noter que j'ai également suivi tous les liens dans le code source pour m'assurer ne pas passer à côté d'autres indices! En le faisant, j'ai téléchargé les deux images présentes sur la page courante pour les analysées plus tard.
+**Note 1 **: A noter que j'ai également suivi tous les liens dans le code source pour m'assurer ne pas passer à côté d'autres indices! En le faisant, j'ai téléchargé les deux images présentes sur la page courante pour les analysées plus tard.
 
 __Lien dans le code source__
 + /static/bootstrap/css/bootstrap.min.css
@@ -83,8 +83,17 @@ Texte déchiffré en entier:
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture6.png "capture6.png")   
 
 En concordance avec mes remarques **Remarque {1,2,2}**, j'ai copié-collé les mots dans cet ordre en mettant les lettres concernées entre `[` et `]`.  
-Lien trouvé après rassemblessement des pièces du puzzle `chat`:  
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture7.png "capture7.png") 
+Lien trouvé après rassemblessement des pièces du puzzle `/chat`:  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture7.png "capture7.png")   
+
+J'ai donc obtenu le repertoire caché `/chat`.  
+**Conclusion 1**: La partie traitée jusque là relève à la fois de la stéganographie et de la cryptographie. C'était typiquement le cheminement envisagé par les organisateurs/créateurs des challenges, je suppose. Cependant, une autre méthode permettait de trouver le repertoire caché `/chat`.  
+
+Elle consiste à utiliser la techniques d'énumération web **fuzzing directory** sur le dictionnaire **/usr/share/wordlists/dirb/small.txt** avec soit **dirb**, **dirbuster**, **gobuster**, ...  
+
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture8.png "capture8.png")   
+
+
 
 
 
