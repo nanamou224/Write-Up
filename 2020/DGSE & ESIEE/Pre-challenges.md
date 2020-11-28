@@ -6,7 +6,7 @@
 ### Description de la compétition
 Du samedi 24 octobre au mercredi 11 novembre 2020, la **DGSE** et l'**ESIEE Paris** organisaient le challenge de cybersécurité intitulée **Brigitte Friang** qui consistait à incarner l’**agent 42** afin de déjouer une attaque menaçant les ressortissants et les intérêts français suite à une révolte dans un pays fictif.  
 
-Ce CTF était composé en trois phases. Une première phase de **pré-challenge** qui consistait à trouver les challenges de la compétition ( :stuck_out_tongue_closed_eyes: ). Après avoir perdu bon nombre des participants à cette phase, venait ensuite la deuxième phase qui était le vrai **challenge**. Enfin, les mieux classés sont attendus pour une dernière phase **post-challenge** à la DGSE.  
+Ce CTF était composé en trois phases. Une première phase de **pré-challenge** qui consistait à trouver les challenges de la compétition ( :stuck_out_tongue_closed_eyes: ). Après avoir perdu bon nombre des participants à cette phase, venait ensuite la deuxième phase qui était le vrai **challenge**. Enfin, les mieux classés sont attendus pour une  phase **post-challenge** qui consiste en une remise de prix lors de l'European Cyberwee à Rennes.  
 
 En ce qui me concerne, par faute de temps, je n'ai pu accorder que 3h ( :mask:) à la compétition durant lesquelles j'ai réalisé tous les challenges de la phase de **pré-challenge** que je me propose de traiter dans les lignes qui suivent.  
 
@@ -68,32 +68,27 @@ Les lettres du texte sont typiquement celles utilisées en français et en angla
 L'autre méthode consiste à copier un court passage (une phrase, par exemple) et le dechiffrer avec un outil en ligne comme https://www.dcode.fr/caesar-cipher ou https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us.   
 
 
-
-Inline-style:
+outil en ligne https://www.dcode.fr/caesar-cipher:
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture4.png "outil en ligne https://www.dcode.fr/caesar-cipher") 
 
 
-Image
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture5.png "outil en ligne https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us") 
+outil en ligne https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture5.png "outil en ligne https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us")  
 
-
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-=> décalage=7
 
 **Etape 2: déchiffrer le code**  
+Maintenant que nous connaissons la clef de déchiffrement, il suffit de réutiliser l'une des méthodes précédentes sur le texte en entier pour avoir le message en clair.  
+Comme je suis gentille :blush:, je vous donne une autre méthode en ligne de commande (utile en offline).
+
+Texte déchiffré en entier:
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture6.png "capture6.png")   
+
+En concordance avec mes **Remarque {1,2,2}**, j'ai copié-collé les mots dans cet ordre en mettant les lettres concernées entre guillemets.
+Lien trouvé après rassemblessement des pièces du puzzle `chat`:  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture6.png "capture7.png") 
 
 
-> Décoder le message chiffré par Cesar de clef 7
-1E: copier une phrase du texte pour trouver le décalage du chiffrement de cesar utilisé
-https://www.dcode.fr/caesar-cipher
-=> décalage=7
 
-2E: pour une question de formatage, utiliser le site pour décoder
-https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us
-M3: Utiliser le message laissé/décodé
-> Sélectionner tout le texte: CTRL+A
 on remarque des caractères entre | |, on parie que ces lettres en caractère hors ASCII peuvent aider plus tard
 > Copier dans l'ordre chacun de ces mots et les décoder
 https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us
