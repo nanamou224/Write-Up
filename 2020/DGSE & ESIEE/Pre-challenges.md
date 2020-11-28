@@ -54,7 +54,7 @@ Les deux derniers correspondent aux images disponibles ici:
 
 **Remarque 1**: Ce message a l'air de commuiquer une information secrète (tout comme son chemin d'ailleurs!: **/static/message-secret.html**).   
 **Remarque 2**: Dans le corner gauche (encdré jaune), on aperçoit le titre de la page **Cesar** ; il s'agit donc d'un **chiffrement par décalage**.    
-**Remarque 3**: Certains caractères sont en gras et, déliités par des barres verticales si sélectionnés (encadrés noires). Ce sont: `/`, `j`, `o`, `h` et `a`.
+**Remarque 3**: Certains caractères sont en gras et, déliités par des barres verticales `|` si sélectionnés (encadrés noires). Ce sont: `/`, `j`, `o`, `h` et `a`.
 Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rien d'intéressant ne s'y trouvait.  
 
 
@@ -85,29 +85,6 @@ Texte déchiffré en entier:
 En concordance avec mes remarques **Remarque {1,2,2}**, j'ai copié-collé les mots dans cet ordre en mettant les lettres concernées entre `[` et `]`.  
 Lien trouvé après rassemblessement des pièces du puzzle `chat`:  
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture7.png "capture7.png") 
-
-
-
-on remarque des caractères entre | |, on parie que ces lettres en caractère hors ASCII peuvent aider plus tard
-> Copier dans l'ordre chacun de ces mots et les décoder
-https://cryptii.com/pipes/caesar-cipher?fbclid=IwAR0ca6cVpcx1ZdJJEKY0NpY7Ey0m_g5YnVLftwaE90ZH_fCPHy8_8-kK7Us
-
-Cypher text		Plain text
----------------------------------------------------
-23[/]01/1924	       23[/]01/1924
-s'vj[j]bwhapvu	       l'oc[c]upation
-Tvyip[o]hu		       Morbi[h]an
-T[h]syhbe		       M[a]lraux
-klcplu[a]		       devien[t]  
-
-NB: j'ai colorié et mis entre parenthèses les lettres qui nous intéressent
-/chat
-> Se rendre donc dans le repertoire caché: /chat
-https://www.challengecybersec.fr/chat
-
-
-
-
 
 
 
