@@ -16,5 +16,7 @@ Lien du challenge: www.challengecybersec.fr
 [ESIEE](https://www.esiee.fr/): École Supérieure d'Ingénieurs en Électrotechnique et Électronique
 
 ---
-
+### Débuts des hostilités 
+En me rendant sur le lien du challenge (www.challengecybersec.fr) que j'ai recupéré sur le site de la DGSE, je suis tombé sur la jolie page web ci-dessous. 
+![Google logo](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture1.PNG " ")
 
