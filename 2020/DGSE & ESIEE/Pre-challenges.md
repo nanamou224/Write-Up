@@ -30,7 +30,7 @@ Je ne sais pas pour vous, mais face à une page web, je suis toujours tenté d'a
 
 Dans ce code source, une chose m'a sauté aux yeux. Il s'agit du commentaire à la ligne 10 qui indique une nouvelle page web `/static/message-secret.html` que j'ai suivi en complétant mon URL comme ceci `https://challengecybersec.fr/static/message-secret.html`.  
 
-**NB**: A noter que j'ai également suivi tous les liens dans le code source pour m'assurer ne pas passer à côté d'autres indices! En le faisant, j'ai téléchargé les deuximages présentes sur la page courante pour les analysées plus tard.
+**NB**: A noter que j'ai également suivi tous les liens dans le code source pour m'assurer ne pas passer à côté d'autres indices! En le faisant, j'ai téléchargé les deux images présentes sur la page courante pour les analysées plus tard.
 
 Lien dans le code source
 + /static/bootstrap/css/bootstrap.min.css
@@ -40,7 +40,7 @@ Lien dans le code source
 + /static/js/particles.min.js
 + /static/js/app.js
 
-Images téléchargées 
+= Images téléchargées =
 + dgse.png
 + esiee.png
 
