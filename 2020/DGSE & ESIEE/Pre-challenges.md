@@ -84,7 +84,7 @@ Texte déchiffré en entier:
 
 En concordance avec mes **Remarque {1,2,2}**, j'ai copié-collé les mots dans cet ordre en mettant les lettres concernées entre guillemets.  
 Lien trouvé après rassemblessement des pièces du puzzle `chat`:  
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture6.png "capture7.png") 
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture7.png "capture7.png") 
 
 
 
