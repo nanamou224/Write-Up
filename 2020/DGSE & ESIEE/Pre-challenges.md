@@ -22,4 +22,10 @@ En me rendant sur le lien du challenge (www.challengecybersec.fr), recupéré su
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture1.PNG " ")                        
 
                               
-Etant donné que c'est un CTF-like, il faut être attentif aux moindres détails. C'est d'ailleurs ce qu'on nous rappelle en cette phrase   > **Ouvrez bien les yeux, vous avez jusqu'au 11/11/2020 23:59:59**
+Etant donné que c'est un CTF-like, il faut être attentif aux moindres détails. C'est d'ailleurs ce qu'on nous rappelle en cette phrase   
+> **Ouvrez bien les yeux, vous avez jusqu'au 11/11/2020 23:59:59**.  
+
+Je ne sais pas pour vous, mais face à une page web, je suis toujours tenté d'aller voir, toute de suite, le code source de la page web avec CTRL+U.
+![capture2](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture2.PNG " ")  
+
+Dans ce code source, une chose m'a sauté aux yeux. Il s'agit du commentaire à la ligne 10 qui indique une nouvelle page web `/static/message-secret.html` . 
