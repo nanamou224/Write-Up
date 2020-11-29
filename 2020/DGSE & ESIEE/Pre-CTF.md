@@ -17,7 +17,7 @@ Lien du challenge: www.challengecybersec.fr
 
 ---  
 ---
-### Débuts des hostilités 
+# I. Défis du pré-pré-CTF: débuts des hostilités (jolie tautologie !)
 **Objectif**: retrouver les défis de la compétitions  
 En me rendant sur le lien du challenge (www.challengecybersec.fr), recupéré sur le site de la DGSE, je suis tombé sur la jolie page web suivante.   
 
@@ -92,6 +92,7 @@ Après rassemblessement des pièces du puzzle, j'ai donc obtenu le repertoire ca
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture8.png "capture8.png")  
 
 
+# II. Défis du pré-CTF
 En accédant à `/chat`, nous nous retrouvons face à une application sécrète de communication comme le montre le titre de la page **S3curConv** (encadré jaune).   
 
 
@@ -115,4 +116,11 @@ Nous passons alors aux communications suivantes.
 
 **Remarque 6**: D'après les échanges avec Antoine Rossignol, Jérémy Nitel, Blaise Pascal et Blaise Pascal, nous pouvons affirmer avec confirmer la remarque **Remarque 5** et que pour valider chaque défis, il suffit de laisser le bon message à la bonne personne du service choisi.  
 
+## 1. Service Crypto  
+## 2. Service Web  
+## 3. Service Algo  
+## 4. Service Forensic  
 
+
+
+# III. Défis du CTF
