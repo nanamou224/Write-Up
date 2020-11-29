@@ -98,7 +98,7 @@ En accédant à `/chat`, nous nous retrouvons face à une application sécrète 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture9.png "capture9.png")  
 
 
-**Remarque 4**: Armand Richelieu de la direction nous dit dans son premier message que nous repartons en mission. Ce qui veut dire, qu'on est pas encore au bout des surprises!  
+**Remarque 4**: Armand Richelieu de la direction nous dit dans son premier message que nous repartons en mission. Ce qui veut dire, qu'on est pas encore au bout de nos surprises!  
 **Remarque 5**: Le nom des services semblent faire référence aux catégories des défis à relever.    
 - Service Crypto;  
 - Service Web;  
@@ -107,22 +107,15 @@ En accédant à `/chat`, nous nous retrouvons face à une application sécrète 
 
 Nous passons alors aux communications suivantes.  
 
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture10.png "capture10.png") 
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture11.png "capture11.png") 
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture12.png "capture12.png") 
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture10.png "capture10.png")  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture11.png "capture11.png")  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture12.png "capture12.png")  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture13.png "capture13.png")  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture14.png "capture14.png")  
 
 
-Antoine Rossignol
+**Remarque 6**: D'après les échanges avec Antoine Rossignol, Jérémy Nitel, Blaise Pascal et Blaise Pascal, nous pouvons affirmer avec assurance la remarque **Remarque 5** et pour valider chaque défis, il suffit de laisser le bon message à la bonne personne du service choisi.  
 
-
-Jérémy Nitel
-
-
-Blaise Pascal
-
-
-Alphonse Bertillon
-Service Forensic
 
 
 echange.txt  
