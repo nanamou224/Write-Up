@@ -6,9 +6,9 @@
 ### Description de la compétition
 Du samedi 24 octobre au mercredi 11 novembre 2020, la **DGSE** et l'**ESIEE Paris** organisaient le challenge de cybersécurité intitulée **Brigitte Friang** qui consistait à incarner l’**agent 42** afin de déjouer une attaque menaçant les ressortissants et les intérêts français suite à une révolte dans un pays fictif.  
 
-Ce CTF était composé en trois phases. Une première phase de **pré-challenge** qui consistait à trouver les challenges de la compétition ( :stuck_out_tongue_closed_eyes: ). Après avoir perdu bon nombre des participants à cette phase, venait ensuite la deuxième phase qui était le vrai **challenge**. Enfin, les mieux classés sont attendus pour une remise de prix lors de l'European Cyberweek à Rennes (https://www.european-cyber-week.eu/).  
+Ce CTF était composé en trois phases. Une première phase de **pré-CTF** qui consistait à trouver les challenges de la compétition ( :stuck_out_tongue_closed_eyes: ). Après avoir perdu bon nombre des participants à cette phase, venait ensuite la deuxième phase qui était le vrai **challenge**. Enfin, les mieux classés sont attendus pour une remise de prix lors de l'European Cyberweek à Rennes (https://www.european-cyber-week.eu/).  
 
-En ce qui me concerne, par faute de temps, je n'ai pu accorder que 3h ( :mask:) à la compétition durant lesquelles j'ai réalisé tous les challenges de la phase de **pré-challenge** que je me propose de traiter dans les lignes qui suivent.  
+En ce qui me concerne, par faute de temps, je n'ai pu accorder que 3h ( :mask:) à la compétition durant lesquelles j'ai réalisé tous les challenges de la phase de **pré-CTF** que je me propose de traiter dans les lignes qui suivent.  
 
 Lien du challenge: www.challengecybersec.fr
 
@@ -87,12 +87,12 @@ Après rassemblessement des pièces du puzzle, j'ai donc obtenu le repertoire ca
 
 
 
-**Conclusion 1**: A mon avis, le cheminement (**Web** --> **Stéganographie** --> **Cryptographie**) présenté jusqu'ici était celui espéré par les organisateurs/créateurs des challenges si non, ils se seraient pas donnés la peine de chiffré le texte laissé en code de Cesar! Ils n'ont peut-être pas vérifié l'existence du repertoire `/chat` dans des dictionnaires couramment utilisés en CTF. Nous utilisons la techniques d'énumération web **fuzzing directory** à l'aide de l'outil **gobuster** sur ce dictionnaire integré par défaut à kali Linux **/usr/share/wordlists/dirb/small.txt** comme suit.  
+**Conclusion 1**: A mon avis, le cheminement (**Web** --> **Stéganographie** --> **Cryptographie**) présenté jusqu'ici était celui espéré par les organisateurs/créateurs des challenges si non, ils se seraient pas donnés la peine de chiffré le texte laissé en code de Cesar! Ils n'ont peut-être pas vérifié l'existence du repertoire `/chat` dans des dictionnaires couramment utilisés en CTF. Nous utilisons la technique d'énumération web **fuzzing directory** à l'aide de l'outil **gobuster** sur un des dictionnaires nativement integrés à kali Linux **/usr/share/wordlists/dirb/small.txt** comme suit.  
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture8.png "capture8.png")  
 
 
-
+En accédant à `/chat`, nous nous retrouvons face aux 4 défis
 
 
 
