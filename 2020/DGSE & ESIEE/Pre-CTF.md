@@ -87,7 +87,7 @@ Après rassemblessement des pièces du puzzle, j'ai donc obtenu le repertoire ca
 
 
 
-**Conclusion 1**: A mon avis, le cheminement (**Web** --> **Stéganographie** --> **Cryptographie**) présenté jusqu'ici était celui espéré par les organisateurs/créateurs des défis si non, ils se seraient pas donnés la peine de chiffré le texte laissé en code de Cesar! Ils n'ont peut-être pas vérifié l'existence du repertoire `/chat` dans des dictionnaires couramment utilisés en CTF. Nous utilisons la technique d'énumération web **fuzzing directory** à l'aide de l'outil **gobuster** sur un des dictionnaires nativement integrés à kali Linux **/usr/share/wordlists/dirb/small.txt** comme suit.  
+**Conclusion 1**: A mon avis, le cheminement (**Web** --> **Stéganographie** --> **Cryptographie**) présenté jusqu'ici était celui espéré par les organisateurs/créateurs des défis si non, ils se seraient pas donnés la peine de chiffré le texte laissé en code de Cesar! Ils n'ont peut-être pas vérifié l'existence du repertoire `/chat` dans des dictionnaires couramment utilisés en CTF. Nous utilisons la technique d'énumération web **fuzzing directory** à l'aide de l'outil **gobuster** sur un des dictionnaires nativement integrés à kali Linux **/usr/share/wordlists/dirb/small.txt** comme suit. Je vous réserve une troisième méthode dans la **Conclusion 2**
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture8.png "capture8.png")  
 
@@ -115,6 +115,32 @@ Nous passons alors aux communications suivantes.
 
 
 **Remarque 6**: D'après les échanges avec Antoine Rossignol, Jérémy Nitel, Blaise Pascal et Blaise Pascal, nous pouvons affirmer avec confirmer la remarque **Remarque 5** et que pour valider chaque défis, il suffit de laisser le bon message à la bonne personne du service choisi.  
+
+**Note 2**: Encore un autre élément, non espéré par les constructeurs des challenges. Un joueur plus malin pouvait aller plus vite en utilisant la technique de reconnaissance **Google dorking** afin de retrouver directement le lien des défis:  
++ https://www.challengecybersec.fr/35e334a1ef338faf064da9eb5f861d3c/  
++ https://www.challengecybersec.fr/4e9033c6eacf38dc2a5df7a14526bec1/  
++ https://gitlab-rive2.challengecybersec.fr/  
++ https://www.challengecybersec.fr/chat/public/uploads/original.txt  
++ https://www.challengecybersec.fr/chat/public/uploads/compte_rendu_eve.pdf  
++ https://www.challengecybersec.fr/9bcb53d26eab7e9e08cc9ffae4396b48  
++ https://challengecybersec.fr/1410e53b7550c466c76fc7268a8160ae  
++ https://challengecybersec.fr/1410e53b7550c466c76fc7268a8160ae/5f3949527e73ad93b73b070bb12cde1292bbcde5  
++ https://gitlab-rive2.challengecybersec.fr/users/sign_in  
++ https://challengecybersec.fr/d3d2bf6b74ec26fdb57f76171c36c8fa/VX_elliptique.pdf  
+
++ https://ctf.challengecybersec.fr/7a144cdc500b28e80cf760d60aca2ed3/lock.php
+
+Ce dernier lien est celui recherché depuis le début. Il donne accès aux challenges du vrai **CTF**.
+L'opérateur Google `site:` permet de trouver tous les contenus liés à un sujet sur le site précisé.   
+
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture15.png "capture15.png")  
+
+
+  
+
+**Conclusion 2**: Faisant suite à la conclusion **Conclusion 1**, les constructeurs des challenges ont une fois de plus "oublié" que les robots de Google indexent toutes les pages des sites web sur Internet à moins qu'on n'interdise explicitement cela dans un fichier `/robots.txt`.
+
+
 
 ## II.1. Service Crypto  
 here  
