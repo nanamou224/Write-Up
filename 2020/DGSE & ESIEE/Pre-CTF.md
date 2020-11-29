@@ -116,7 +116,7 @@ Nous passons alors aux communications suivantes.
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture14.png "capture14.png")  
 
 
-**Remarque 6**: D'après les échanges avec Antoine Rossignol, Jérémy Nitel, Blaise Pascal et Blaise Pascal, nous pouvons affirmer avec confirmer la remarque **Remarque 5** et que pour valider chaque défis, il suffit de laisser le bon message à la bonne personne du service choisi.  
+**Remarque 6**: D'après les échanges avec Antoine Rossignol, Jérémy Nitel, Blaise Pascal et Blaise Pascal, nous pouvons confirmer la remarque **Remarque 5** et que pour valider chaque défis, il suffit de laisser le bon message à la bonne personne du service choisi.  
 
 **Note 2**: Encore un autre élément, non espéré par les constructeurs des challenges. Un joueur plus malin pouvait aller plus vite en utilisant la technique de reconnaissance **Google dorking** (l'opérateur Google `site:` permet de trouver tous les contenus liés à un sujet sur le site précisé) afin de retrouver directement le lien des défis:  
 
@@ -139,7 +139,8 @@ Ce dernier lien est celui recherché depuis le début. Il donne accès aux chall
 
   
 
-**Conclusion 2**: Faisant suite à la conclusion **Conclusion 1**, les constructeurs des challenges ont une fois de plus "oublié" que les robots de Google indexent toutes les pages des sites web sur Internet à moins qu'on n'interdise explicitement cela dans un fichier `/robots.txt`.
+**Conclusion 2**: Il n'yavait pas de fichier `/robots.txt` ni `/sitemap.xml` sur l'application web ! Un habitué averti pouvait bien pensé dès cet instant à faire du **dorking**!  
+Faisant suite à la conclusion **Conclusion 1**, nous pouvons supposer que les constructeurs des challenges ont une fois de plus "oublié" que les robots de Google indexent toutes les pages des sites web sur Internet à moins qu'on n'interdise explicitement cela dans un fichier `/robots.txt`.
 
 
 
