@@ -27,7 +27,7 @@ En me rendant sur le lien du challenge (www.challengecybersec.fr), recupéré su
 Etant donné que c'est un CTF-like, il faut être attentif aux moindres détails. C'est d'ailleurs ce qu'on nous rappelle en cette phrase   
 > **Ouvrez bien les yeux, vous avez jusqu'au 11/11/2020 23:59:59**.  
 
-## 1. Analyse/Inspection de code source  
+## I.1. Analyse/Inspection de code source  
 Je ne sais pas pour vous, mais face à une page web, je suis toujours tenté d'aller voir, toute de suite, le code source de la page web avec CTRL+U.  
 
 ![capture2](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture2.png " ")  
@@ -60,7 +60,7 @@ Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rie
 
 
 
-## 2. Déchiffrement du code de Cesar  
+## I.2. Déchiffrement du code de Cesar  
 **Etape 1: trouver le décalage (la clef de déchiffrement)**    
 ***Méthode 1***: analyse à la mano    
 Les lettres du texte sont typiquement celles utilisées en français et en anglais. De plus, on remarque un mot formé d'une seule lettre (encadré vert): la langue utilisée est probablement du français où: h --(correspondance)--> a. **La clef de déchiffrement est donc 7**.
@@ -116,10 +116,18 @@ Nous passons alors aux communications suivantes.
 
 **Remarque 6**: D'après les échanges avec Antoine Rossignol, Jérémy Nitel, Blaise Pascal et Blaise Pascal, nous pouvons affirmer avec confirmer la remarque **Remarque 5** et que pour valider chaque défis, il suffit de laisser le bon message à la bonne personne du service choisi.  
 
-## 1. Service Crypto  
-## 2. Service Web  
-## 3. Service Algo  
-## 4. Service Forensic  
+## II.1. Service Crypto  
+here  
+
+## II.2. Service Web  
+here  
+
+## II.3. Service Algo  
+here  
+
+## II.4. Service Forensic  
+here  
+
 
 
 
