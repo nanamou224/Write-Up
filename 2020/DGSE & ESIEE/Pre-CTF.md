@@ -152,7 +152,7 @@ A compléter ...
 
 ## II.4. Service Forensic  
 **II.4.1 Défis 1: Analyse de log Nginx**  
-Alphonse Bertillon du Service Forensic nous dit dans la conversation qu'il faut retrouver l'adresse IP suspect dans le fichier log nginx `access.log` fourni et le lui envoyer.  
+Alphonse Bertillon du Service Forensic nous demande de retrouver l'adresse IP suspecte dans le fichier de log nginx `access.log` fourni et la lui envoyer.    
 A compléter ...
 
 
