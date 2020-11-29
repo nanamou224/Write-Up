@@ -6,9 +6,9 @@
 ### Description de la compétition
 Du samedi 24 octobre au mercredi 11 novembre 2020, la **DGSE** et l'**ESIEE Paris** organisaient le challenge de cybersécurité intitulée **Brigitte Friang** qui consistait à incarner l’**agent 42** afin de déjouer une attaque menaçant les ressortissants et les intérêts français suite à une révolte dans un pays fictif.  
 
-Ce CTF était composé en trois phases. Une première phase de **pré-CTF** qui consistait à trouver les challenges de la compétition ( :stuck_out_tongue_closed_eyes: ). Après avoir perdu bon nombre des participants à cette phase, venait ensuite la deuxième phase qui était le vrai **challenge**. Enfin, les mieux classés sont attendus pour une remise de prix lors de l'European Cyberweek à Rennes (https://www.european-cyber-week.eu/).  
+Ce CTF était composé en trois phases. Une première phase de **pré-CTF** qui consistait à trouver les challenges de la compétition ( :stuck_out_tongue_closed_eyes: ). Après avoir perdu bon nombre des participants à cette phase, venait ensuite la deuxième phase qui était le vrai **CTF**. Enfin, les mieux classés sont attendus pour une remise de prix lors de l'European Cyberweek à Rennes (https://www.european-cyber-week.eu/).  
 
-En ce qui me concerne, par faute de temps, je n'ai pu accorder que 3h ( :mask:) à la compétition durant lesquelles j'ai réalisé tous les challenges de la phase de **pré-CTF** que je me propose de traiter dans les lignes qui suivent.  
+En ce qui me concerne, par faute de temps, je n'ai pu accorder que 3h ( :mask:) à la compétition durant lesquelles j'ai réalisé tous les défis de la phase de **pré-CTF** que je me propose de traiter dans les lignes qui suivent.  
 
 Lien du challenge: www.challengecybersec.fr
 
@@ -18,7 +18,7 @@ Lien du challenge: www.challengecybersec.fr
 ---  
 ---
 ### Débuts des hostilités 
-**Objectif**: retrouver les challenges de la compétitions  
+**Objectif**: retrouver les défis de la compétitions  
 En me rendant sur le lien du challenge (www.challengecybersec.fr), recupéré sur le site de la DGSE, je suis tombé sur la jolie page web suivante.   
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture1.PNG " ")                        
@@ -54,7 +54,7 @@ Les deux derniers correspondent aux images disponibles ici:
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture3.png " ")  
 
 **Remarque 1**: Ce message a l'air de commuiquer une information secrète (tout comme son chemin d'ailleurs!: **/static/message-secret.html**).   
-**Remarque 2**: Dans le corner gauche (encdré jaune), on aperçoit le titre de la page **Cesar** ; il s'agit donc d'un **chiffrement par décalage**.    
+**Remarque 2**: Dans le corner gauche (encadré jaune), on aperçoit le titre de la page **Cesar** ; il s'agit donc d'un **chiffrement par décalage**.    
 **Remarque 3**: Certains caractères sont en gras et, délimités par des barres verticales `|` si sélectionnés (encadrés noires): `/`, `j`, `o`, `h` et `a`.  
 Comme toujours, j'ai *checké* le code source de la page avant de continuer. Rien d'intéressant ne s'y trouvait.  
 
@@ -87,12 +87,45 @@ Après rassemblessement des pièces du puzzle, j'ai donc obtenu le repertoire ca
 
 
 
-**Conclusion 1**: A mon avis, le cheminement (**Web** --> **Stéganographie** --> **Cryptographie**) présenté jusqu'ici était celui espéré par les organisateurs/créateurs des challenges si non, ils se seraient pas donnés la peine de chiffré le texte laissé en code de Cesar! Ils n'ont peut-être pas vérifié l'existence du repertoire `/chat` dans des dictionnaires couramment utilisés en CTF. Nous utilisons la technique d'énumération web **fuzzing directory** à l'aide de l'outil **gobuster** sur un des dictionnaires nativement integrés à kali Linux **/usr/share/wordlists/dirb/small.txt** comme suit.  
+**Conclusion 1**: A mon avis, le cheminement (**Web** --> **Stéganographie** --> **Cryptographie**) présenté jusqu'ici était celui espéré par les organisateurs/créateurs des défis si non, ils se seraient pas donnés la peine de chiffré le texte laissé en code de Cesar! Ils n'ont peut-être pas vérifié l'existence du repertoire `/chat` dans des dictionnaires couramment utilisés en CTF. Nous utilisons la technique d'énumération web **fuzzing directory** à l'aide de l'outil **gobuster** sur un des dictionnaires nativement integrés à kali Linux **/usr/share/wordlists/dirb/small.txt** comme suit.  
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture8.png "capture8.png")  
 
 
-En accédant à `/chat`, nous nous retrouvons face aux 4 défis
+En accédant à `/chat`, nous nous retrouvons face à une application sécrète de communication comme le montre le titre de la page **S3curConv** (encadré jaune).   
 
 
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture9.png "capture9.png")  
 
+
+**Remarque 4**: Armand Richelieu de la direction nous dit dans son premier message que nous repartons en mission. Ce qui veut dire, qu'on est pas encore au bout des surprises!  
+**Remarque 5**: Le nom des services semblent faire référence aux catégories des défis à relever.    
+- Service Crypto;  
+- Service Web;  
+- Service Algo;  
+- Service Forensic;  
+
+Nous passons alors aux communications suivantes.  
+
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture10.png "capture10.png") 
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture11.png "capture11.png") 
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture12.png "capture12.png") 
+
+
+Antoine Rossignol
+
+
+Jérémy Nitel
+
+
+Blaise Pascal
+
+
+Alphonse Bertillon
+Service Forensic
+
+
+echange.txt  
+archive_chiffree 
+layout.pdf 
+compte_rendu_eve.pdf
