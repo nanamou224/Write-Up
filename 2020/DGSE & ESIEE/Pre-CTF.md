@@ -117,6 +117,7 @@ Nous passons alors aux communications suivantes.
 **Remarque 6**: D'après les échanges avec Antoine Rossignol, Jérémy Nitel, Blaise Pascal et Blaise Pascal, nous pouvons affirmer avec confirmer la remarque **Remarque 5** et que pour valider chaque défis, il suffit de laisser le bon message à la bonne personne du service choisi.  
 
 **Note 2**: Encore un autre élément, non espéré par les constructeurs des challenges. Un joueur plus malin pouvait aller plus vite en utilisant la technique de reconnaissance **Google dorking** (l'opérateur Google `site:` permet de trouver tous les contenus liés à un sujet sur le site précisé) afin de retrouver directement le lien des défis:  
+
 + https://www.challengecybersec.fr/35e334a1ef338faf064da9eb5f861d3c/
 + https://www.challengecybersec.fr/4e9033c6eacf38dc2a5df7a14526bec1/
 + https://gitlab-rive2.challengecybersec.fr/
@@ -127,7 +128,6 @@ Nous passons alors aux communications suivantes.
 + https://challengecybersec.fr/1410e53b7550c466c76fc7268a8160ae/5f3949527e73ad93b73b070bb12cde1292bbcde5
 + https://gitlab-rive2.challengecybersec.fr/users/sign_in
 + https://challengecybersec.fr/d3d2bf6b74ec26fdb57f76171c36c8fa/VX_elliptique.pdf
-
 + https://ctf.challengecybersec.fr/7a144cdc500b28e80cf760d60aca2ed3/lock.php  
 
 Ce dernier lien est celui recherché depuis le début. Il donne accès aux challenges du vrai **CTF**. 
