@@ -107,18 +107,12 @@ En accédant à `/chat`, nous nous retrouvons face à une application sécrète 
 
 Nous passons alors aux communications suivantes.  
 
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture10.png "capture10.png")  
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture11.png "capture11.png")  
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture12.png "capture12.png")  
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture13.png "capture13.png")  
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture14.png "capture14.png")  
 
 
-**Remarque 6**: D'après les échanges avec Antoine Rossignol, Jérémy Nitel, Blaise Pascal et Blaise Pascal, nous pouvons affirmer avec assurance la remarque **Remarque 5** et pour valider chaque défis, il suffit de laisser le bon message à la bonne personne du service choisi.  
+**Remarque 6**: D'après les échanges avec Antoine Rossignol, Jérémy Nitel, Blaise Pascal et Blaise Pascal, nous pouvons affirmer avec confirmer la remarque **Remarque 5** et que pour valider chaque défis, il suffit de laisser le bon message à la bonne personne du service choisi.  
 
 
-
-echange.txt  
-archive_chiffree 
-layout.pdf 
-compte_rendu_eve.pdf
