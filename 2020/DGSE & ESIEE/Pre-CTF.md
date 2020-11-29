@@ -91,6 +91,8 @@ Après rassemblessement des pièces du puzzle, j'ai donc obtenu le repertoire ca
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture8.png "capture8.png")  
 
+---  
+---  
 
 # II. Défis du pré-CTF
 En accédant à `/chat`, nous nous retrouvons face à une application sécrète de communication comme le montre le titre de la page **S3curConv** (encadré jaune).   
@@ -152,9 +154,12 @@ A compléter ...
 
 ## II.4. Service Forensic  
 **II.4.1 Défis 1: Analyse de log Nginx**  
-Alphonse Bertillon du Service Forensic nous demande de retrouver l'adresse IP suspecte dans le fichier de log nginx `access.log` et la lui envoyer.      
+Alphonse Bertillon du Service Forensic nous demande de retrouver l'adresse IP suspecte dans le fichier de log `access.log` et la lui envoyer.      
 A compléter ...
 
+
+---  
+---  
 
 # III. Défis du CTF (COROS CTF)
 A compléter ...  
