@@ -255,7 +255,8 @@ On décode le deuxième code avec cyberchef et on obtient `AES 256 ECB`. Woyé, 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture23.png "capture23.png")  
 
 
-**Remarque 13**: Ce résultat donné par cyberchef nous indique que l’algorithme de chiffrement utilisé est **AES 256 en mode ECB**.  
+**Remarque 13**:  J'avais aussi remarqué que les coupures en plein milieu sont toutes alignées. Cela n'a pa servi!  
+**Remarque 14**: Ce résultat donné par cyberchef nous indique que l’algorithme de chiffrement utilisé est **AES 256 en mode ECB**.  
 Nous allons donc réutiliser notre outil cyberchef avec les bons paramètres.  
 
 
