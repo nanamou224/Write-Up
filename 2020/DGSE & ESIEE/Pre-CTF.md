@@ -151,9 +151,20 @@ Dans cette catérogrie, Antoine Rossignol nous donne 4 fichiers qui pourront nou
 + layout.pdf  
 + compte_rendu_eve.pdf  
 
-Dans son dernier message, il nous fait comprendre que l'objectif est de lire le contenu du fichier `archive_chiffree`.   
 
-+ on a réussi à faire de la rétro-ingénierie matérielle sur la puce
+**Remarque 7**: Dans son dernier message, il nous fait comprendre que l'objectif est de lire le contenu du fichier `archive_chiffree`.   
+**Remarque 8**:
+**Remarque 9**:
+
+**Etape 1** : Joindre Ève Descartes par son adresse mail `eve.descartes@esiee.fr`  
+J'ai envoyé un mail à son adresse mail et j'ai obtenu cette réponse 2 minutes plus tard.  
+
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Service Crypto/capture17.png "capture17.png") 
+
+**Etape 2** : Joindre Ève Descartes par téléphone  `+33 (0)1 45 92 60 96`
+Le répondeur est un tout petit peu bizarre. J'ai alors enregistré le son émis.
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Service Crypto/audio1.mp3 "audio1.mp3") 
+
 
 
 ## II.2. Service Web  
