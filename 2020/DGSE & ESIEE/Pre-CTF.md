@@ -15,6 +15,9 @@ Lien du challenge: www.challengecybersec.fr
 [DGSE](https://www.defense.gouv.fr/dgse): Direction Générale de la Sécurité Extérieure  
 [ESIEE](https://www.esiee.fr/): École Supérieure d'Ingénieurs en Électrotechnique et Électronique
 
+
+Contributeurs: [N'Famoussa Kounon NANAMOU](https://www.linkedin.com/in/nanamou/) & [Mehdi Sadir](https://www.linkedin.com/in/sadirmehdi/)  
+
 ---  
 ---
 # I. Défis du pré-pré-CTF: débuts des hostilités (jolie tautologie !)
