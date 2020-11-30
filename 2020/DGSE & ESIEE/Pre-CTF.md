@@ -244,20 +244,19 @@ Le seond code me donne le code ci-dessous:
 0010000000100000   
 0010000000100000    
 
+:information_source: Attention à la copie, deux espaces sont ajoutés à la fin de chaque ligne afin de pouvoir formater car j'utilise le langage markdown pour écrire ce write-up!  
+
 **Coucou cyberchef**  
 On décode le premier code avec cyberchef et on obtient ce truc insensé `¾º¬ßÍÊÉßº¼½ßßßßßßßßßßßßßßßßßßßßß`. Ce n'est clairement pas ce qu'on recherche
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture22.png "capture22.png") 
 
 
-On décode le deuxième code avec cyberchef et on obtient `AES 256 ECB`. Woyé, ça sent la fête!!!
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture23.png "capture23.png") 
+On décode le deuxième code avec cyberchef et on obtient `AES 256 ECB`. Woyé, ça sent la fête!!!  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture23.png "capture23.png")  
 
 
-
-
-
-
-
+**Remarque 13**: Ce résultat donné par cyberchef nous indique que l’algorithme de chiffrement utilisé est **AES 256 en mode ECB**.  
+Nous allons donc réutiliser notre outil cyberchef avec les bons paramètres.  
 
 
 
