@@ -189,11 +189,17 @@ J'ai envoyé un mail à son adresse mail et j'ai obtenu cette réponse 2 minutes
  
  
 **Etape 2** : Joindre Ève Descartes par téléphone  `+33 (0)1 45 92 60 96`
-C'est alors que j'ai pris mon téléphone pour la joindre. Le répondeur est un tout petit peu bizarre. J'ai enregistré le vocal que vous trouverez [ici](https://audiomack.com/nanamou224/song/audio1)  
+C'est alors que j'ai pris mon téléphone pour la joindre. Le répondeur me donne des bips bips bips (classiques pour ceux qui voient ce que je veux dire :p). Il s'agit du [code morse](https://www.youtube.com/watch?v=QNNwv7si4qU) que j'ai décodé avec cet outil en ligne: https://morsecode.world/international/decoder/audio-decoder-adaptive.html  
 
-A présent, nous avons des éléments et faisons le récap:  
-+ nous n'avons pas trouver grand' chose en interrogeant les fichiers `archive_chiffree` et `layout.pdf`  
-+ nous disposons d'un fichier audio qui parle une autre langue :confused: Allons discuter avec lui :sunglasses:
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture20.png "capture20.png")  
+
+**Remarque 11**: Bingo! On vient d'obtenir quelque chose mais un peu bruité. En effet, entre l'enregistrement du vocal et le décodage sur le site, le premier caractère a été alteré mais ce n'est pas du tout gênant car on peut clairement deviner que le mot `resistance` est le mot de passe recherché. En le saisissant dans le champ du fichier `layout.pdf`, nous y entrons et voyons ceci.  
+
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture21.png "capture21.png") 
+
+**Remarque 12**: Cela ressemble à des fusibles programmables type eFuse au nombre de 256, comme nous l'avait dit Eve Descartes dans son `compte_rendu_eve.pdf`. 
+
+to be continued...
 
 
 ### Déchiffrement de l'enregistrement audio
