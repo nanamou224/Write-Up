@@ -201,12 +201,63 @@ C'est alors que j'ai pris mon téléphone pour la joindre. Le répondeur me donn
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture21.png "capture21.png") 
 
-**Remarque 12**: Cela ressemble à des fusibles programmables type eFuse au nombre de 256, comme nous l'avait dit Eve Descartes dans son `compte_rendu_eve.pdf`. 
+**Remarque 12**: Cela ressemble à des fusibles programmables type eFuse au nombre de **256 = 16 ligne x 16 colonnes**, comme nous l'avait dit Eve Descartes dans son `compte_rendu_eve.pdf`. J'ai alors imaginé que chaque ""fusible"" correspondait à un bit de la clef. 
 
-to be continued...
+**(en)Codage**  
+Deux façons de coder s'offrent à moi.  
++ Code 1: codé par 0 les fusibles mordus en leur milieu et par 1 ceux intacts  
++ Code 2: codé par 1 les fusibles mordus en leur milieu et par 0 ceux intacts   
+
+Le premier code me donne le code ci-dessous:   
+`1011111010111010  
+1010110011011111  
+1100110111001010  
+1100100111011111  
+1011101010111100  
+1011110111011111  
+1101111111011111  
+1101111111011111  
+1101111111011111  
+1101111111011111  
+1101111111011111  
+1101111111011111  
+1101111111011111  
+1101111111011111  
+1101111111011111  
+1101111111011111`   
+
+Le seond code me donne le code ci-dessous: 
+`0100000101000101  
+0101001100100000  
+0011001000110101  
+0011011000100000  
+0100010101000011  
+0100001000100000  
+0010000000100000  
+0010000000100000  
+0010000000100000  
+0010000000100000  
+0010000000100000  
+0010000000100000  
+0010000000100000  
+0010000000100000  
+0010000000100000  
+0010000000100000`  
+
+**Coucou cyberchef**  
+On décode le premier code avec cyberchef et on obtient ce truc insensé `¾º¬ßÍÊÉßº¼½ßßßßßßßßßßßßßßßßßßßßß`. Ce n'est clairement pas ce qu'on recherche
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture22.png "capture22.png") 
 
 
-### Déchiffrement de l'enregistrement audio
+On décode le deuxième code avec cyberchef et on obtient `AES 256 ECB`. Woyé, ça sent la fête!!!
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture23.png "capture23.png") 
+
+
+
+
+
+
+
 
 
 
