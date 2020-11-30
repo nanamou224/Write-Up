@@ -149,21 +149,56 @@ Dans cette catérogrie, Antoine Rossignol nous donne 4 fichiers qui pourront nou
 + [echange.txt ](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/echange.txt)  
 + [archive_chiffree](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/archive_chiffree)    
 + [layout.pdf ](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/layout.pdf)   
-+ [compte_rendu_eve.pdf ](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/compte_rendu_eve.pdf)   
++ [compte_rendu_eve.pdf ](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/compte_rendu_eve.pdf)    
 
 
-**Remarque 7**: Dans son dernier message, il nous fait comprendre que l'objectif est de lire le contenu du fichier `archive_chiffree`.   
-**Remarque 8**:
-**Remarque 9**:
+J'ai alors décidé d'analyser fichier par fichier. 
+[**archive_chiffree**]
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture20.png "capture20.png")   
+
+**Remarque 6**: Nous y reviendrons!  
+
+
+[**layout.pdf**]  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture19.png "capture19.png")   
+
+**Remarque 7**: Aucun mot de passe évident n'a pu ouvrir la sésame.  
+
+[**Fichier echange.txt**]  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture18.png "capture18.png")   
+
+**Remarque 8**: On doit se réferer au compte-rendu d'Eve Descartes.  
+
+
+[**compte_rendu_eve.pdf**]  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture16.png "capture16.png")   
+
+**Remarque 9**: Il s'agit d'un standard connu à 256 micro-fusibles programmables typpe eFuse dont l'ordre des bits est sûrement interverti ainsi que la position du MSB.  
+**Remarque 10**: On peut la contacter par téléphone ou par mail pour tout renseignement complémentaire.
+
+:information_source: Après plusieurs analyses sur ces fichiers sans succès, soyons fous et contactons Eves Descartes au regard de ma remarque **Remarque 10**
+
 
 **Etape 1** : Joindre Ève Descartes par son adresse mail `eve.descartes@esiee.fr`  
 J'ai envoyé un mail à son adresse mail et j'ai obtenu cette réponse 2 minutes plus tard.  
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture17.png "capture17.png")  
  
+ 
+ Au regard de sa réponse (encadré en evrt), elle préfère être joint par téléphone, pauvre Eve Descartes!
+ 
+ 
 **Etape 2** : Joindre Ève Descartes par téléphone  `+33 (0)1 45 92 60 96`
-Le répondeur est un tout petit peu bizarre. J'ai alors enregistré le son émis.
-[lire l'audio ici](https://audiomack.com/nanamou224/song/audio1)
+C'est alors que j'ai pris mon téléphone pour la joindre. Le répondeur est un tout petit peu bizarre. J'ai enregistré le vocal que vous trouverez [ici](https://audiomack.com/nanamou224/song/audio1)  
+
+A présent, nous avons des éléments et faisons le récap:  
++ nous n'avons pas trouver grand' chose en interrogeant les fichiers `archive_chiffree` et `layout.pdf`  
++ nous disposons d'un fichier audio qui parle une autre langue :confused: Allons discuter avec lui :sunglasses:
+
+
+### Déchiffrement de l'enregistrement audio
+
+
 
 
 ## II.2. Service Web  
