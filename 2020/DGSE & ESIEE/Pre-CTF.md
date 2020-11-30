@@ -146,10 +146,10 @@ Faisant suite à la conclusion **Conclusion 1**, nous pouvons supposer que les c
 
 ## II.1. Service Crypto  
 Dans cette catérogrie, Antoine Rossignol nous donne 4 fichiers qui pourront nous être utiles.  
-+ echange.txt  
-+ archive_chiffree  
-+ layout.pdf  
-+ compte_rendu_eve.pdf  
++ [echange.txt ](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/echange.txt)  
++ [archive_chiffree](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/archive_chiffree)    
++ [layout.pdf ](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/layout.pdf)   
++ [compte_rendu_eve.pdf ](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/compte_rendu_eve.pdf)   
 
 
 **Remarque 7**: Dans son dernier message, il nous fait comprendre que l'objectif est de lire le contenu du fichier `archive_chiffree`.   
