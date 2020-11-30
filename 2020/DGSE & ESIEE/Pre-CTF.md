@@ -1,5 +1,8 @@
 # **Brigitte Friang, DGSE & ESIEE**
 
+Contributeurs: [N'Famoussa Kounon NANAMOU](https://www.linkedin.com/in/nanamou/) & [Mehdi Sadir](https://www.linkedin.com/in/sadirmehdi/)   
+
+
 ![Google logo](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/challenge_home.PNG "google logo")
 
 
@@ -15,8 +18,6 @@ Lien du challenge: www.challengecybersec.fr
 [DGSE](https://www.defense.gouv.fr/dgse): Direction Générale de la Sécurité Extérieure  
 [ESIEE](https://www.esiee.fr/): École Supérieure d'Ingénieurs en Électrotechnique et Électronique
 
-
-Contributeurs: [N'Famoussa Kounon NANAMOU](https://www.linkedin.com/in/nanamou/) & [Mehdi Sadir](https://www.linkedin.com/in/sadirmehdi/)  
 
 ---  
 ---
