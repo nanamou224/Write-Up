@@ -1,6 +1,6 @@
 # **Brigitte Friang, DGSE & ESIEE**
 
-Contributeurs: [N'Famoussa Kounon NANAMOU](https://www.linkedin.com/in/nanamou/) & [Mehdi Sadir](https://www.linkedin.com/in/sadirmehdi/)   
+## Contributeurs: [N'Famoussa Kounon NANAMOU](https://www.linkedin.com/in/nanamou/) & [Mehdi Sadir](https://www.linkedin.com/in/sadirmehdi/)   
 
 
 ![Google logo](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/challenge_home.PNG "google logo")
