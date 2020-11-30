@@ -145,7 +145,16 @@ Faisant suite à la conclusion **Conclusion 1**, nous pouvons supposer que les c
 
 
 ## II.1. Service Crypto  
-A compléter ...  
+Dans cette catérogrie, Antoine Rossignol nous donne 4 fichiers qui pourront nous être utiles.  
++ echange.txt  
++ archive_chiffree  
++ layout.pdf  
++ compte_rendu_eve.pdf  
+
+Dans son dernier message, il nous fait comprendre que l'objectif est de lire le contenu du fichier `archive_chiffree`.   
+
++ on a réussi à faire de la rétro-ingénierie matérielle sur la puce
+
 
 ## II.2. Service Web  
 A compléter ...  
