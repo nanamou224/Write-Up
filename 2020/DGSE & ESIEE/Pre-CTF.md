@@ -163,8 +163,7 @@ J'ai envoyé un mail à son adresse mail et j'ai obtenu cette réponse 2 minutes
 
 **Etape 2** : Joindre Ève Descartes par téléphone  `+33 (0)1 45 92 60 96`
 Le répondeur est un tout petit peu bizarre. J'ai alors enregistré le son émis.
-![capture1](https://audiomack.com/nanamou224/song/audio1")  
-
+[lire l'audio ici](https://audiomack.com/nanamou224/song/audio1)
 
 
 ## II.2. Service Web  
