@@ -282,7 +282,7 @@ J'ai utilisé cette valeur pour accéder au contenu du fichier `code_acces.pdf` 
 
 Un copier-coller de l'équation sur google m'indique que le code utilisé est **corps de Galois (ou GF(256))** que je décode avec cet [outil en ligne](shorturl.at/xABW5)  
 
-**Flag--: `b a:e z`
+**Flag**: `b a:e z`
 
 
 Antoine Rossignol était content de ma démarche et m'a filé donc le lien du vrai CTF ( quel long chemin !!! :triumph: ): `/7a144cdc500b28e80cf760d60aca2ed3`  
@@ -290,7 +290,7 @@ Antoine Rossignol était content de ma démarche et m'a filé donc le lien du vr
 
 
 
-
+--
 ## II.2. Service Web  
 A compléter ...  
 
