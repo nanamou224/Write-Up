@@ -156,8 +156,8 @@ Dans cette catérogrie, Antoine Rossignol nous donne 4 fichiers qui pourront nou
 + [compte_rendu_eve.pdf ](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/compte_rendu_eve.pdf)    
 
 
-J'ai alors décidé d'analyser fichier par fichier.  
-[**archive_chiffree**]
+J'ai alors décidé d'analyser fichier par fichier.   
+[**archive_chiffree**]  
 **Remarque 6**: Nous y reviendrons!  
 
 
@@ -283,7 +283,7 @@ Un copier-coller de l'équation sur google m'indique que le code utilisé est **
 **Flag**: `b a:e z`
 
 
-Antoine Rossignol était content de ma démarche et m'a filé donc le lien du vrai CTF ( quel long chemin !!! :triumph: ): `/7a144cdc500b28e80cf760d60aca2ed3`  
+Antoine Rossignol était content de ma démarche et m'a filé donc le lien du vrai CTF ( :triumph: ): `/7a144cdc500b28e80cf760d60aca2ed3`  
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture28.png "capture28.png")  
 
 
