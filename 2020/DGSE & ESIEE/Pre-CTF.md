@@ -286,11 +286,14 @@ Un copier-coller de l'équation sur google m'indique que le code utilisé est **
 Antoine Rossignol était content de ma démarche et m'a filé donc le lien du vrai CTF ( :triumph: ): `/7a144cdc500b28e80cf760d60aca2ed3`  
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture28.png "capture28.png")  
 
+**Fin du défis "Service Crypto"**
 
 
---
+
 ## II.2. Service Web  
 A compléter ...  
+
+
 
 ## II.3. Service Algo  
 A compléter ...  
