@@ -203,7 +203,7 @@ C'est alors que j'ai pris mon téléphone pour la joindre. Le répondeur me donn
 
 **Remarque 12**: Cela ressemble à des fusibles programmables type eFuse au nombre de **256 = 16 ligne x 16 colonnes**, comme nous l'avait dit Eve Descartes dans son `compte_rendu_eve.pdf`. J'ai alors imaginé que chaque ""fusible"" correspondait à un bit de la clef. 
 
-**(en)Codage**  
+**Etape 3** : déchiffrer le fichier `archive_chiffree`
 Deux façons de coder s'offrent à moi.  
 + Code 1: codé par 0 les fusibles mordus en leur milieu et par 1 ceux intacts  
 + Code 2: codé par 1 les fusibles mordus en leur milieu et par 0 ceux intacts   
@@ -251,13 +251,42 @@ On décode le premier code avec cyberchef et on obtient ce truc insensé `¾º¬
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture22.png "capture22.png") 
 
 
-On décode le deuxième code avec cyberchef et on obtient `AES 256 ECB`. Woyé, ça sent la fête!!!  
+On décode le deuxième code avec cyberchef et on obtient `AES 256 ECB                     `. Woyé, ça sent la fête!!!  
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture23.png "capture23.png")  
 
-
-**Remarque 13**:  J'avais aussi remarqué que les coupures en plein milieu sont toutes alignées. Cela n'a pa servi!  
-**Remarque 14**: Ce résultat donné par cyberchef nous indique que l’algorithme de chiffrement utilisé est **AES 256 en mode ECB**.  
+**Remarque 13**: Il faut bien noter les espaces après **AES 256 ECB**. Il m'a bien fait transpirer :rage: et je suis sorti prendre un café après :sweat_smile:  
+**Remarque 14**: J'avais aussi remarqué que les coupures en plein milieu sont toutes alignées. Cela n'a pa servi!  
+**Remarque 15**: Ce résultat donné par cyberchef nous indique que l’algorithme de chiffrement utilisé est **AES 256 en mode ECB**.  
 Nous allons donc réutiliser notre outil cyberchef avec les bons paramètres.  
+
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture24.png "capture24.png")  
+
+Pour les habitués, le magic number indique qu'il s'agit d'un fichier **zip**. J'enregistre donc l'output avec cette extension et le dézippe juste après.    
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture25.png "capture25.png")  
+
+En fouillant un peu à l'intérieur du fichier extrait, on obtient d'autres fichiers PDF.  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture26.png "capture26.png")  
+
+**Etape 4** : déchiffrer le fichier `code_acces.pdf`
+Après avoir tapé à la porte de tout un chacun des fichiers PDF, il en ressort que `code_acces.pdf` est protégé par un mot de passe, probablement la solution au système de congruences contenu dans `message.pdf`???  
+
+Après résolution de ce système par un outil en ligne dont je ne me souviens plus ( disappointed_relieved: ), on trouve:   
++ x=5622 pour l'équation **x^3≡573[8387]**  
++ x=5622 ou x=7640 ou x=5964 pour l'équation **x^3≡98[9613]**  
++ x=5622 ou x=2589 ou x=7643 pour l'équation **x^3≡2726[7927]**  
+
+Il s'agit d'un système d'équation, donc la solutioon commune à chacune des équations de congruence est celle du système **x=5622**  
+J'ai utilisé cette valeur pour accéder au contenu du fichier `code_acces.pdf` et.... je suis tombé à nouveau sur une autre équation (please give me that flag :sob: :sob: :sob: )  
+
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture27.png "capture27.png")  
+
+Un copier-coller de l'équation sur google m'indique que le code utilisé est **corps de Galois (ou GF(256))** que je décode avec cet [outil en ligne](shorturl.at/xABW5)  
+
+**Flag--: `b a:e z`
+
+
+Antoine Rossignol était content de ma démarche et m'a filé donc le lien du vrai CTF ( quel long chemin !!! :triumph: ): `/7a144cdc500b28e80cf760d60aca2ed3`  
+![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture28.png "capture28.png")  
 
 
 
