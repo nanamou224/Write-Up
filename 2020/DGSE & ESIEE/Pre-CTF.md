@@ -156,10 +156,8 @@ Dans cette catérogrie, Antoine Rossignol nous donne 4 fichiers qui pourront nou
 + [compte_rendu_eve.pdf ](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/compte_rendu_eve.pdf)    
 
 
-J'ai alors décidé d'analyser fichier par fichier. 
+J'ai alors décidé d'analyser fichier par fichier.  
 [**archive_chiffree**]
-![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/Crypto/capture20.png "capture20.png")   
-
 **Remarque 6**: Nous y reviendrons!  
 
 
