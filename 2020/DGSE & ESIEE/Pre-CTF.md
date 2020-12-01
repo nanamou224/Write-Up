@@ -308,8 +308,7 @@ A compléter ...
 ---  
 
 # III. Défis du CTF (COROS CTF)
-A compléter ...  
-
+Et voici ou nous nous sommes limités par manque de temps. Nous espérons pouvoir participer à la prochaine édition :heart_eyes:. Merci à la DGSE et à l'ESIEE pour ces beaux challenges.  
 
 ![capture1](https://github.com/nanamou224/Write-Up/blob/main/2020/DGSE%20%26%20ESIEE/Ressources/capture40.png "capture40.png") 
 
